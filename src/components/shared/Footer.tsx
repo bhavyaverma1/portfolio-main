@@ -5,7 +5,7 @@ import { AiOutlineMail } from '@react-icons/all-files/ai/AiOutlineMail';
 import { FiRss } from '@react-icons/all-files/fi/FiRss';
 
 import HyperLink from './HyperLink';
-import { discussionsURL, rssPath, supportURL } from '../../constants/links';
+import { discussionsURL, rssPath } from '../../constants/links';
 import { Link } from '../../types/Link';
 import Row from './Row';
 import SocialLinks from './SocialLinks';
@@ -18,48 +18,48 @@ type FooterProps = {
 };
 
 const Footer = (props: FooterProps): React.ReactElement => {
-  const { className = '', withFeedback = false, withSupport = true } = props;
+  const { className = '', withFeedback = false, withSupport = false } = props;
 
-  const issuesLink: Link = {
-    url: discussionsURL,
-  };
+  // const issuesLink: Link = {
+  //   url: discussionsURL,
+  // };
 
-  const subscribeLink: Link = {
-    url: '/subscribe',
-  };
+  // const subscribeLink: Link = {
+  //   url: '/subscribe',
+  // };
 
-  const rssLink: Link = {
-    url: rssPath,
-  };
+  // const rssLink: Link = {
+  //   url: rssPath,
+  // };
 
-  const supportLink: Link = {
-    url: supportURL,
-  };
+  // const supportLink: Link = {
+  //   url: supportURL,
+  // };
 
-  const feedbackFooterLink = withFeedback ? (
-    <HyperLink
-      link={issuesLink}
-      className="text-xs mr-5"
-      startEnhancer={(<FiGithub size={20} />)}
-    >
-      Feedback
-    </HyperLink>
-  ) : null;
+  // const feedbackFooterLink = withFeedback ? (
+  //   <HyperLink
+  //     link={issuesLink}
+  //     className="text-xs mr-5"
+  //     startEnhancer={(<FiGithub size={20} />)}
+  //   >
+  //     Feedback
+  //   </HyperLink>
+  // ) : null;
 
-  const supportFooterLink = withSupport ? (
-    <HyperLink
-      link={supportLink}
-      className="text-xs mr-5"
-      startEnhancer={(<FaRegHeart size={20} />)}
-    >
-      Support
-    </HyperLink>
-  ) : null;
+  // const supportFooterLink = withSupport ? (
+  //   <HyperLink
+  //     link={supportLink}
+  //     className="text-xs mr-5"
+  //     startEnhancer={(<FaRegHeart size={20} />)}
+  //   >
+  //     Support
+  //   </HyperLink>
+  // ) : null;
 
   return (
     <footer className={`${className}`}>
       <Row responsive>
-        <Row style={{ flex: 1 }} className="mb-6 sm:mb-0">
+        {/* <Row style={{ flex: 1 }} className="mb-6 sm:mb-0">
           <HyperLink
             link={subscribeLink}
             className="text-xs mr-5"
@@ -79,12 +79,13 @@ const Footer = (props: FooterProps): React.ReactElement => {
           >
             RSS
           </HyperLink>
-        </Row>
+        </Row> */}
 
         <div
           style={{ flex: 1 }}
           className="flex flex-row items-center justify-center"
         >
+          <h3>Made with &hearts; for myself &#9786; using Gastby.js</h3>
           <SocialLinks
             links={profile?.socialLinks}
             expandable={false}
@@ -93,9 +94,9 @@ const Footer = (props: FooterProps): React.ReactElement => {
           />
         </div>
 
-        <div style={{ flex: 1 }} className="hidden sm:flex">
+        {/* <div style={{ flex: 1 }} className="hidden sm:flex">
           &nbsp;
-        </div>
+        </div> */}
       </Row>
     </footer>
   );

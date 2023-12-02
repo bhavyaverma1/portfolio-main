@@ -8,9 +8,9 @@ const Greeting = (): React.ReactElement => {
     url: `${routes.projects.path}/`,
   };
 
-  const blogLink: Link = {
-    url: `${routes.blog.path}/`,
-  };
+  // const blogLink: Link = {
+  //   url: `${routes.blog.path}/`,
+  // };
 
   const projectsLinkElement = (
     <span className="inline-block">
@@ -18,23 +18,17 @@ const Greeting = (): React.ReactElement => {
     </span>
   );
 
-  const blogLinkElement = (
-    <span className="inline-block">
-      <HyperLink link={blogLink} className="underline font-semibold">articles</HyperLink>
-    </span>
-  );
+  // const blogLinkElement = (
+  //   <span className="inline-block">
+  //     <HyperLink link={blogLink} className="underline font-semibold">articles</HyperLink>
+  //   </span>
+  // );
 
   return (
     <p className="font-light">
       Hi there!
-      I&apos;m Oleksii. I work as a full-time software engineer. In my spare time I do
-      open-sourcing.
-      Most of my open-source {projectsLinkElement} are focused
-      on one thing &ndash; <i>to help people learn</i>. You may use these projects to
-      learn about algorithms in JavaScript and get prepared for technical interviews, or
-      to learn Python syntax and start experimenting with machine learning algorithms
-      and math behind them, etc. I also write {blogLinkElement} about life, web-development
-      and machine learning.
+        I&apos;m Bhavya. Graduated with a Bachelor's of Tech in Electronics and Communication Engineering from IIIT Delhi. I worked as a SWE intern @Autodesk Bangalore. Big Data, Machine Learning Challenges
+        and Math behind them, etc. is my current forte. Also I am a little obssesed with fitness, movies, music and reading self-help books and philosophies.
     </p>
   );
 };
