@@ -46,10 +46,10 @@ const SEO = (props: SEOProps): React.ReactElement => {
   } = props;
 
   const { pathname } = useLocation();
-
-  const extendedTitle = titleMode === titleModePrefix
-    ? `${windowNamePrefix} ${windowNameSeparator} ${title}`
-    : `${title} ${windowNameSeparator} ${windowNamePrefix}`;
+  const extendedTitle = `${windowNamePrefix} ${windowNameSeparator} Data Science Consultant`
+  // const extendedTitle = titleMode === titleModePrefix
+  //   ? `${windowNamePrefix} ${windowNameSeparator} ${title}`
+  //   : `${title} ${windowNameSeparator} ${windowNamePrefix}`;
 
   const bannerURL = `${baseURL}${image}`;
 
