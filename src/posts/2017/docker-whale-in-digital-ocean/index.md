@@ -59,13 +59,7 @@ Project will consist of two containers:
 
 > We’re using sample Docker project from [Getting Started With Docker](https://docs.docker.com/get-started/) guide. Please address this guide if you’ll need detailed explanation of each file’s meaning.
 
-### Fork it
 
-You may find project source code at [trekhleb/hello-docker](https://github.com/trekhleb/hello-docker) repository. So just go and fork it.
-
-![fork](assets/04-fork.png)
-
-Once you forked it you’ll have hello-docker project copy as your own repository. Later we will connect this new repository to Docker Cloud so you need to have it.
 
 ### hello-docker file structure
 

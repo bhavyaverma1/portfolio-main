@@ -1,9 +1,9 @@
 {
-  "name": "trekhleb.github.io",
+  "name": "portfolio-main",
   "version": "3.0.0",
   "private": false,
-  "author": "Oleksii Trekhleb",
-  "homepage": "https://trekhleb.dev",
+  "author": "Bhavya Verma",
+  "homepage": "https://bhavyaverma1.netlify.app",
   "license": "0BSD",
   "scripts": {
     "fetch-stars": "node ./src/scripts/fetchGitHubStars.js",

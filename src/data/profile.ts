@@ -2,24 +2,25 @@ import { Profile } from '../types/Profile';
 import { socialLinks } from './socialLinks';
 
 export const profile: Profile = {
-  firstName: 'Oleksii',
-  lastName: 'Trekhleb',
-  position: 'Senior Software Engineer @ Uber',
+  firstName: 'Bhavya',
+  lastName: 'Verma',
+  position: 'Data Scientist [at] BlackCoffer',
   summary: [
-    'Author of 170k ★️ javascript-algorithms repo on GitHub',
+    'ECE Undergrad from IIIT Delhi ❤',
   ],
   avatar: {
     // srcPath: 'profile/avatar_500x500.jpg',
-    srcPath: 'profile/avatar_500x500_v2.jpg',
-    caption: 'Oleksii Trekhleb',
+    srcPath: 'profile/avatar_500.jpg',
+    caption: 'Bhavya Verma',
   },
   location: {
-    name: 'Amsterdam, The Netherlands • from 🇺🇦',
+    name: 'Jaipur, Rajasthan • from 🇮🇳',
   },
   tags: [
-    { name: 'Full Stack' },
-    { name: 'JavaScript' },
-    { name: 'React' },
+    { name: 'Python' },
+    { name: 'Data Analytics' },
+    { name: 'Machine Learning/ AI' },
+    { name: 'ReactJS + Django' },
   ],
   socialLinks,
 };

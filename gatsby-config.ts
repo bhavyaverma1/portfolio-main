@@ -196,7 +196,7 @@ const gatsbyConfig: GatsbyConfig = {
               }
             `,
             output: rssPath,
-            title: 'Trekhleb.dev RSS Feed',
+            title: 'RSS Feed',
           },
         ],
       },
