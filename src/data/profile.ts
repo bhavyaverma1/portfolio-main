@@ -18,9 +18,11 @@ export const profile: Profile = {
   },
   tags: [
     { name: 'Python' },
-    { name: 'Data Analytics' },
-    { name: 'Machine Learning/ AI' },
+    { name: 'Data Analysis' },
+    { name: 'Machine Learning' },
+    { name: 'NLP' },
     { name: 'ReactJS + Django' },
+    { name: 'Git' },
   ],
   socialLinks,
 };
