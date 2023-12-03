@@ -21,6 +21,63 @@ export const projects: Projects = {
       repo: 'Vehicle-Routing-Problem',
     },
   },
+  'ieso-price-forecasting': {
+    id: 'ieso-price-forecasting',
+    name: '📈 IESO Fuel Price Forecasting',
+    srcURL: { url: 'https://github.com/bhavyaverma1/IESO-Price-Forecasting' },
+    cover: { srcPath: 'projects/ieso-price-forecasting/cover.png' },
+    startDate: '2022-10-01',
+    summary: [
+      'End-to-end data pipeline tool to fetch and store IESO data in GCP and build ML models to predict fuel prices',
+    ],
+    tags: [
+      { name: 'Machine Learning' },
+      { name: 'Google BigQuery' },
+      { name: 'Forecasting' },
+    ],
+    gitHubRepo: {
+      owner: 'bhavyaverma1',
+      repo: 'IESO-Price-Forecasting',
+    },
+  },
+  'snek': {
+    id: 'snek',
+    name: '🐍 Snake Species Detector',
+    srcURL: { url: 'https://github.com/bhavyaverma1/snek' },
+    cover: { srcPath: 'projects/snek/cover.png' },
+    startDate: '2019-11-01',
+    summary: [
+      'Classify images of snake species from around the world and then to correctly administer their antivenoms to cure the snakebites',
+    ],
+    tags: [
+      { name: 'Logistic Regression' },
+      { name: 'Deep Learning' },
+      { name: 'CNN' },
+      { name: 'Resnet-50' },
+    ],
+    gitHubRepo: {
+      owner: 'bhavyaverma1',
+      repo: 'snek',
+    },
+  },
+  'asr-sru': {
+    id: '',
+    name: '🗣️ Automatic Speech Recognition for Regional Languages',
+    srcURL: { url: 'https://github.com/bhavyaverma1/Automatic-Speech-Recognition' },
+    cover: { srcPath: 'projects/asr-sru/cover.png' },
+    startDate: '2020-05-01',
+    summary: [
+      'Automatic Speech Recognition for Regional Languages using Deep Neural Networks and Hidden Markov Models',
+    ],
+    tags: [
+      { name: 'Automatic Speech Recognition' },
+      { name: 'HMM' },
+    ],
+    gitHubRepo: {
+      owner: 'bhavyaverma1',
+      repo: 'Automatic-Speech-Recognition',
+    },
+  },
   // 'AndrewVRP': {
   //   id: 'AndrewVRP',
   //   name: '🛣️ AndrewVRP',
