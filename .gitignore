@@ -1,6 +1,7 @@
 node_modules/
 .cache/
 public
+.netlify/
 .idea
 .vscode
 .DS_Store

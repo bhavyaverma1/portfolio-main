@@ -1,4 +1,4 @@
-// This TSConfig is used for importing gatsby-config.ts in gatsby-config.js and also for TS type checking.
+// TypeScript config for type checking (`npm run type`). Gatsby compiles TS itself.
 // @see: https://www.typescriptlang.org/tsconfig
 {
   "compilerOptions": {
@@ -16,6 +16,8 @@
     "noEmit": true
   },
   "include": [
-    "src/**/*"
-  ],
+    "src/**/*",
+    "gatsby-*.ts",
+    "gatsby-*.tsx"
+  ]
 }
