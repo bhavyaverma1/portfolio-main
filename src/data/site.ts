@@ -19,7 +19,7 @@ export const site: Site = {
     name: 'Bhavya Verma',
     role: 'AI Engineering & Data Science · Novartis Risk & Compliance',
     headline: 'I help teams turn manual workflows into AI systems they can trust.',
-    location: 'Hyderabad, India · Open to remote',
+    location: 'Hyderabad, India · Open to remote or relocation',
     photo: {
       src: '/images/avatar.jpg',
       webp: '/images/avatar.webp',
@@ -195,7 +195,7 @@ export const site: Site = {
   ],
 
   workWithMe: {
-    body: 'Open to AI engineer and data science roles, and to focused projects on LLM features that need to be reliable. Remote or India.',
+    body: 'Open to AI engineer and data science roles anywhere, and to focused projects on LLM features that need to be reliable.',
   },
 
   footerNote: 'Views are my own, not Novartis’s.',
